@@ -1,0 +1,21 @@
+
+
+
+
+<div class="container">
+  <h1>Modifiez la langue de l'emploi du temps</h1>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Cars</mat-label>
+    <select matNativeControl required>
+      <option value="volvo">Anglais</option>
+      <option value="saab">Français</option>
+      <option value="mercedes">Allemand</option>
+    </select>
+  </mat-form-field>
+</div>
+
+<jqxScheduler #schedulerReference
+              [date]="date" [width]="800" [height]="600" [source]="dataAdapter" [showLegend]="true" [view]="'weekView'"
+              [appointmentDataFields]="appointmentDataFields" [resources]="resources" [views]="views"  >
+</jqxScheduler>

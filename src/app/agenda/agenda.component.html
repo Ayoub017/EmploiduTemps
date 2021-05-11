@@ -1,0 +1,36 @@
+
+
+
+
+<div class="container">
+
+  <h1>Modifiez la langue de l'emploi du temps</h1>
+
+
+ <!-- <mat-form-field>
+    <mat-label>Choose an option</mat-label>
+    <mat-select [(ngModel)]="modeselect" [placeholder]="modeselect" (ngModelChange)="change($event)">
+
+      <mat-option [value]="'français'">Français</mat-option>
+      <mat-option [value]='"anglais"'>Anglais</mat-option>
+      <mat-option [value]='"allemand"'>Allemand</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+</div>-->
+  <mat-form-field appearance="fill">
+    <mat-label>Cars</mat-label>
+    <select matNativeControl required>
+      <option value="mercedes">Allemand</option>
+      <option value="volvo">Anglais</option>
+      <option value="saab">Français</option>
+
+
+
+    </select>
+  </mat-form-field>
+</div>
+<jqxScheduler #schedulerReference
+              [date]="date" [width]="800" [height]="600" [source]="dataAdapter" [showLegend]="true" [view]="'weekView'"
+              [appointmentDataFields]="appointmentDataFields" [resources]="resources" [views]="views" [localization]=allemand>
+</jqxScheduler>
