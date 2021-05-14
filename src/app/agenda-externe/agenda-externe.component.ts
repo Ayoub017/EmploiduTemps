@@ -227,7 +227,7 @@ export class AgendaExterneComponent implements AfterViewInit {
     firstDay: 1,
     days: {
       // full day names
-      names: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
+      names: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Freitag'],
       // abbreviated day names
       namesAbbr: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Vend', 'Sam'],
       // shortest day names
